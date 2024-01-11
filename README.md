@@ -51,6 +51,6 @@ This project focuses on predicting house prices in Bangalore using a dataset sou
 
 
 Acknowledgments
-Special thanks to Codebasics Channel on Youtube for carefully explaining the project.
+Special thanks to codebasics Channel on Youtube for carefully explaining the project.
 Thanks to Kaggle for providing the dataset.
 Thanks to the open-source community for valuable insights and inspiration.
