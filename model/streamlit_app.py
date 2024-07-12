@@ -6,6 +6,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split, ShuffleSplit, cross_val_score, GridSearchCV
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.tree import DecisionTreeRegressor
+import os
 
 # Data loading and preprocessing
 @st.cache_data
