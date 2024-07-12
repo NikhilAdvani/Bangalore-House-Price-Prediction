@@ -10,7 +10,10 @@ from sklearn.tree import DecisionTreeRegressor
 # Data loading and preprocessing
 @st.cache_data
 def load_data():
-    df1 = pd.read_csv("Bengaluru_House_Data.csv")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, "Bengaluru_House_Data.csv")
+    df1 = pd.read_csv(data_path)
+    #df1 = pd.read_csv("Bengaluru_House_Data.csv")
     df2 = df1.drop(['area_type', 'availability', 'balcony', 'society'], axis='columns')
     df3 = df2.dropna()
 
