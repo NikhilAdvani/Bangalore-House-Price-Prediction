@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
-import matplotlib
+#from matplotlib import pyplot as plt
+#import matplotlib
 from sklearn.model_selection import train_test_split, ShuffleSplit, cross_val_score, GridSearchCV
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.tree import DecisionTreeRegressor
